@@ -1,0 +1,26 @@
+{
+  "name": "3D-Website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.115.0",
+    "@react-three/fiber": "^8.17.10",
+    "gsap": "^3.12.5",
+    "next": "14.2.12",
+    "react": "^18",
+    "react-dom": "^18",
+    "three": "^0.169.0",
+    "three-mesh-bvh": "^0.8.2",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
