@@ -7,6 +7,7 @@ import { useFrame } from "@react-three/fiber";
 import { useScroll, MotionPathControls, useMotion } from "@react-three/drei";
 import * as THREE from "three";
 import { generateCirclePoints } from "../utils/generateCirclePoints";
+import { Ferrari } from "./modelFerrari";
 
 //gsap.registerPlugin(ScrollTrigger);
 
@@ -83,6 +84,7 @@ export function MainScene() {
         <mesh>
           <boxGeometry args={[1, 1, 1]} />
           <meshStandardMaterial color="red" />
+          <Ferrari />
         </mesh>
       </group>
       {/*</group>
